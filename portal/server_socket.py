@@ -27,7 +27,7 @@ class Options:
 
   ipv6: bool = False
   host: str = ''
-  max_msg_size: int = 4 * 1024 ** 3
+  max_msg_size: int = 128 * 1024 ** 3
   max_recv_queue: int = 4096
   max_send_queue: int = 4096
   logging: bool = True

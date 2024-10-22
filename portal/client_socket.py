@@ -22,7 +22,7 @@ class Options:
 
   ipv6: bool = False
   autoconn: bool = True
-  max_msg_size: int = 4 * 1024 ** 3
+  max_msg_size: int = 128 * 1024 ** 3
   max_recv_queue: int = 128
   max_send_queue: int = 128
   keepalive_after: float = 10
